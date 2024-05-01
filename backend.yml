@@ -18,4 +18,8 @@
     - nodejs
     - mysql
 
+  - name: create expence login_user
+    ansible.builtin.user
+    name: expence
+
 
