@@ -22,4 +22,11 @@
     ansible.builtin.user:
       name: expence
 
+  - name: crate directory
+    anible.builtin.file:
+     path: /app
+     state: directory
+     
+      
+
 
