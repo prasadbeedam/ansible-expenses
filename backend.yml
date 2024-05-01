@@ -19,7 +19,7 @@
     - mysql
 
   - name: create expence user
-    ansible.builtin.user
+    ansible.builtin.user:
       name: expence
 
 
