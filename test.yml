@@ -1,4 +1,0 @@
-- hosts: db
-  tasks:
-    - name: Installing git
-      yum: name=git state=present
