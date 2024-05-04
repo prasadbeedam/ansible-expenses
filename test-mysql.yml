@@ -1,14 +1,7 @@
 - name: configure db server
   hosts: db
   tasks:
-  - name: install python mysql dependencies
-    ansible.builtin.pip:
-      name:
-      - PyMySQL
-      - cryptography
-      executable: pip3.9 # pip3.11 if python version is 3.11 
-      
-  - name: install mysql 
+- name: install mysql 
     ansible.builtin.dnf:
       name: mysql
       state: installed
