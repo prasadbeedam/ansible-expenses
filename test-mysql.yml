@@ -1,7 +1,7 @@
 - name: configure db server
   hosts: db
   vars:
-    login_host: 172.31.16.43
+    login_host: 172.31.18.229
   vars_prompt:
   - name: mysql_root_password
     prompt: Please enter mysql root password
