@@ -3,7 +3,7 @@
   hosts: backend
   vars:
     login_host: db.anuprasad.online
-    login_password: prasad
+    login_password: prasad@123
   tasks:
   - name: disable default nodejs
     ansible.builtin.command: dnf module disable nodejs -y
