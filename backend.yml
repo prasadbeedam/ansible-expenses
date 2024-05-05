@@ -2,7 +2,7 @@
   become: yes
   hosts: backend
   vars:
-    login_host: 172.31.26.136
+    login_host: db.anuprasad.online
     login_password: prasad
 
   tasks:
