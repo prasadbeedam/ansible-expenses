@@ -20,9 +20,9 @@
     - nodejs
     - mysql
 
-  - name: create expence user
+  - name: create expense user
     ansible.builtin.user:
-      name: expence
+      name: expense
 
   - name: create app directory
     ansible.builtin.file:
